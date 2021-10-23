@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Online Food Order</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/signin.css') }}">
+</head>
+<body>
+	<form method="post" action="/adduser">
+	<div class="form-box">
+		<div class="header-text">
+			Sign in Form
+		</div>
+		<input placeholder="Your Name" type="name" name="uname"> 
+		<input placeholder="Your Email Address" type="email" name="uemail"> 
+		<input placeholder="Your Password" type="password" name="upassword">
+		 
+<label for="terms"></label><span>Agree with <a href="#">Terms & Conditions</a></span> <button>Signin</button>
+
+	<font size="4"></font> Have an Account?  <a href="/">Login now</a>
+		
+	</div>
+</form>
+</body>
+</html>

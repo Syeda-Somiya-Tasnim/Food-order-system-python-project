@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Online Food Order</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/login.css') }}">
+</head>
+<body>
+	<form method="post" action="/loginvalidation">
+	<div class="form-box">
+		<div class="header-text">
+			Login Form
+		</div>
+		<input placeholder="Your Email Address" type="email" name="email"> 
+		<input placeholder="Your Password" type="password" name="password">
+		 
+<label for="terms"></label><span>Agree with <a href="#">Terms & Conditions</a></span> <button>login</button>
+
+	<font size="4"></font> Not a member?  <a href="/register">Signup now</a>
+		
+	</div>
+</form>
+</body>
+</html>
